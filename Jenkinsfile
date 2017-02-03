@@ -1,4 +1,5 @@
 node {
+  def project = 'misc-153011'
   def appName = 'gceme'
   def feSvcName = "${appName}-frontend"
   def imageTag = "quay.io/oliryde/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
